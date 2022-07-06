@@ -75,7 +75,7 @@ class HomePage extends StatelessWidget {
                         )
                       ],
                     ),
-                    const SizedBox(height: 40),
+                    const SizedBox(height: 20),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
@@ -90,18 +90,18 @@ class HomePage extends StatelessWidget {
                                 color: Colors.grey.shade800,
                               ),
                             ),
-                            const SizedBox(height: 10),
+                            const SizedBox(height: 5),
                             Text(
                               "Indoor Temp",
                               style: TextStyle(
-                                fontSize: 15,
+                                fontSize: 13,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.grey.shade400,
                               ),
                             ),
                           ],
                         ),
-                        const SizedBox(width: 50),
+                        const SizedBox(width: 10),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
@@ -113,18 +113,18 @@ class HomePage extends StatelessWidget {
                                 color: Colors.grey.shade800,
                               ),
                             ),
-                            const SizedBox(height: 10),
+                            const SizedBox(height: 5),
                             Text(
                               "Outdoor Humidity",
                               style: TextStyle(
-                                fontSize: 15,
+                                fontSize: 13,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.grey.shade400,
                               ),
                             ),
                           ],
                         ),
-                        const SizedBox(width: 50),
+                        const SizedBox(width: 10),
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
@@ -136,11 +136,11 @@ class HomePage extends StatelessWidget {
                                 color: Colors.grey.shade800,
                               ),
                             ),
-                            const SizedBox(height: 10),
+                            const SizedBox(height: 5),
                             Text(
                               "Indoor Humidity",
                               style: TextStyle(
-                                fontSize: 15,
+                                fontSize: 13,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.grey.shade400,
                               ),
@@ -158,7 +158,7 @@ class HomePage extends StatelessWidget {
               height: 40,
               child: ListView(
                 scrollDirection: Axis.horizontal,
-                padding: const EdgeInsets.only(left: 100),
+                padding: const EdgeInsets.only(left: 55),
                 children: const [
                   Padding(
                     padding: EdgeInsets.all(8),
@@ -208,13 +208,13 @@ class HomePage extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  width: 200,
+                  width: 170,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 1,
                     vertical: 30,
                   ),
                   margin: const EdgeInsets.symmetric(
-                    horizontal: 30,
+                    horizontal: 20,
                     vertical: 16,
                   ),
                   decoration: BoxDecoration(
@@ -275,10 +275,10 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 // FIM DO PRIMEIRO CONTAINER DOS BLOCOS
-                const SizedBox(width: 22),
+                const SizedBox(width: 5),
                 // INICIO DO SEGUNDO CONTAINER DA ROW
                 Container(
-                  width: 200,
+                  width: 170,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 1,
                     vertical: 30,
@@ -350,13 +350,13 @@ class HomePage extends StatelessWidget {
               children: [
                 const SizedBox(height: 15),
                 Container(
-                  width: 200,
+                  width: 170,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 1,
                     vertical: 30,
                   ),
                   margin: const EdgeInsets.symmetric(
-                    horizontal: 30,
+                    horizontal: 20,
                     vertical: 5,
                   ),
                   decoration: BoxDecoration(
@@ -418,10 +418,10 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 // FIM DO 1 CONTAINER DA SEGUNDA ROW DE CONTAINERS
-                const SizedBox(width: 22),
+                const SizedBox(width: 5),
                 // INICIO DO 2 CONTAINER DA ROW
                 Container(
-                  width: 200,
+                  width: 170,
                   padding: const EdgeInsets.symmetric(
                     horizontal: 1,
                     vertical: 30,
@@ -543,7 +543,7 @@ class HomePage extends StatelessWidget {
                           )
                         ],
                       ),
-                      const SizedBox(width: 150),
+                      const SizedBox(width: 50),
                       const Icon(
                         Icons.skip_previous_rounded,
                         color: Colors.white38,
