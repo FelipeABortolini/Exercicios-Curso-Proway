@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/next_page.dart';
 
 void main() {
   runApp(
@@ -18,6 +19,20 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Aprendendo telas"),
+        actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+                return const NextPage();
+              }),
+              );
+            },
+            icon: const Icon(
+              Icons.keyboard_arrow_right,
+              size: 30,
+            ),
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(
