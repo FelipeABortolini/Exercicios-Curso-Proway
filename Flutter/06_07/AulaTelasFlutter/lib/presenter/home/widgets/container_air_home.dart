@@ -11,10 +11,11 @@ class ContainerAirHome extends StatelessWidget {
         horizontal: 1,
         vertical: 30,
       ),
-      margin: const EdgeInsets.symmetric(
-        horizontal: 20,
-        vertical: 5,
-      ),
+      margin: const EdgeInsets.all(15),
+      // margin: const EdgeInsets.symmetric(
+      //   horizontal: 20,
+      //   vertical: 5,
+      // ),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(32),

@@ -23,9 +23,14 @@ class NextPage extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
-        child: Column(
+        child: Stack(
+          alignment: Alignment.center,
           children: [
-            const SizedBox(height: 10),
+            const SizedBox(height: 20),
+            Image.asset(
+              imgInta,
+              opacity: const AlwaysStoppedAnimation(0.2),
+            ),
             Text(
               "Faço Programas!",
               style: TextStyle(
@@ -34,8 +39,6 @@ class NextPage extends StatelessWidget {
                 color: Colors.amber[800],
               ),
             ),
-            const SizedBox(height: 20),
-            Image.asset(imgInta),
           ],
         ),
       ),

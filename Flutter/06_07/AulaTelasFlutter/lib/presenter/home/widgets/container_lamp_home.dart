@@ -1,7 +1,32 @@
 import 'package:flutter/material.dart';
 
 class ContainerLampHome extends StatelessWidget {
-  const ContainerLampHome({Key? key}) : super(key: key);
+  final IconData icon;
+  final String title;
+  final bool isOpened;
+  final Color colorBackGround;
+
+  const ContainerLampHome({
+    Key? key,
+    required this.icon,
+    required this.title,
+    required this.isOpened,
+    required this.colorBackGround,
+  }) : super(key: key);
+
+  // State<ContainerLampHome> createState() => 
+
+  // void _changeState(){
+  //   setState(() {
+  //     isOpened = !isOpened;
+  //   });
+  // }
+
+  // @override
+  // State<StatefulWidget> createState() {
+  //   // TODO: implement createState
+  //   throw UnimplementedError();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -11,12 +36,9 @@ class ContainerLampHome extends StatelessWidget {
         horizontal: 1,
         vertical: 30,
       ),
-      margin: const EdgeInsets.symmetric(
-        horizontal: 20,
-        vertical: 16,
-      ),
+      margin: const EdgeInsets.all(15),
       decoration: BoxDecoration(
-        color: Colors.blue,
+        color: colorBackGround,
         borderRadius: BorderRadius.circular(32),
         boxShadow: [
           BoxShadow(
@@ -32,36 +54,40 @@ class ContainerLampHome extends StatelessWidget {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: const [
+            children: [
               Icon(
-                Icons.light_outlined,
+                icon,
                 color: Colors.white,
                 size: 40,
               ),
+              // IconButton(
+                // onPressed: _changeState, 
+                // icon: 
               Icon(
-                Icons.toggle_off_rounded,
+                isOpened?Icons.toggle_on_rounded:Icons.toggle_off_rounded,
                 color: Colors.white,
                 size: 40,
               ),
+              // ),
             ],
           ),
           const SizedBox(height: 30),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 25),
             child: Column(
-              children: const [
+              children: [
                 Text(
-                  "Lamp",
-                  style: TextStyle(
+                  title,
+                  style: const TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                     color: Colors.white70,
                   ),
                 ),
-                SizedBox(height: 15),
+                const SizedBox(height: 15),
                 Text(
-                  "OPENED",
-                  style: TextStyle(
+                  isOpened?"OPENED":"CLOSED",
+                  style: const TextStyle(
                     fontSize: 15,
                     color: Colors.white70,
                   ),

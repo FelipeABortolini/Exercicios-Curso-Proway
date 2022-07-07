@@ -1,0 +1,109 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_application_1",
+            "cwd": "Flutter\\04_07\\flutter_application_1",
+            "request": "launch",
+            "program": "main.dart",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_application_1 (profile mode)",
+            "cwd": "Flutter\\04_07\\flutter_application_1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_application_1 (release mode)",
+            "cwd": "Flutter\\04_07\\flutter_application_1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_application_2",
+            "cwd": "Flutter\\04_07\\flutter_application_2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_application_2 (profile mode)",
+            "cwd": "Flutter\\04_07\\flutter_application_2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_application_2 (release mode)",
+            "cwd": "Flutter\\04_07\\flutter_application_2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_application_1",
+            "cwd": "Flutter\\05_07\\flutter_application_1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_application_1 (profile mode)",
+            "cwd": "Flutter\\05_07\\flutter_application_1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_application_1 (release mode)",
+            "cwd": "Flutter\\05_07\\flutter_application_1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "app-barber",
+            "cwd": "Flutter\\06_07\\app-barber",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app-barber (profile mode)",
+            "cwd": "Flutter\\06_07\\app-barber",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app-barber (release mode)",
+            "cwd": "Flutter\\06_07\\app-barber",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "AulaTelasFlutter",
+            "cwd": "Flutter\\06_07\\AulaTelasFlutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "AulaTelasFlutter (profile mode)",
+            "cwd": "Flutter\\06_07\\AulaTelasFlutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "AulaTelasFlutter (release mode)",
+            "cwd": "Flutter\\06_07\\AulaTelasFlutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

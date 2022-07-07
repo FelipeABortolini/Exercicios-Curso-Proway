@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '/core/app_assets.dart';
 
 class CardWeatherHome extends StatelessWidget {
   const CardWeatherHome({Key? key}) : super(key: key);
@@ -13,7 +14,7 @@ class CardWeatherHome extends StatelessWidget {
       margin: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         image: const DecorationImage(
-          image: AssetImage("assets/images/cloud.jpg"),
+          image: ExactAssetImage(imgCloud),
           fit: BoxFit.fill,
         ),
         boxShadow: [
