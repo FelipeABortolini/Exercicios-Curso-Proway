@@ -1,0 +1,5 @@
+SELECT Description FROM [Categories];
+SELECT * FROM [Categories];
+
+
+INSERT INTO [OrderDetails] VALUES (519, 1085, 45, 254);
