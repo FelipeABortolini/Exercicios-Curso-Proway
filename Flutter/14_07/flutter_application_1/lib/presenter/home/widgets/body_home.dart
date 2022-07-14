@@ -29,13 +29,15 @@ class BodyHome extends StatelessWidget {
           ),
           Container(
             height: 50,
-            width: 150,
+            width: 300,
+            padding: const EdgeInsets.all(10),
+            margin: const EdgeInsets.all(10),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(15),
               boxShadow: [
                 BoxShadow(
-                  spreadRadius: 10,
-                  blurRadius: 5,
+                  spreadRadius: 0,
+                  blurRadius: 2,
                   color: Colors.blue.shade100,
                 )
               ],
