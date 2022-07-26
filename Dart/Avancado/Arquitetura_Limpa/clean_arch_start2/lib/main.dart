@@ -1,9 +1,10 @@
-import 'package:clean_arch_start2/app/presenter/ui/products_page.dart';
-import 'package:clean_arch_start2/core/get_it.dart';
 import 'package:flutter/material.dart';
 
+// import 'app/presenter/ui/products_by_id_page.dart';
+import 'app/presenter/ui/products_page.dart';
+
 void main() {
-  setupDependecies();
+  // setupDependecies();
   runApp(const MyApp());
 }
 
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      debugShowCheckedModeBanner: false,
       home: ProductsPage(),
     );
   }

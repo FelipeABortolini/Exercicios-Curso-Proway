@@ -6,6 +6,7 @@ class ProductEntity {
   String brand;
   String category;
   int qtd;
+  int id;
 
   ProductEntity({
     required this.name,
@@ -13,6 +14,7 @@ class ProductEntity {
     required this.brand,
     required this.category,
     required this.qtd,
+    required this.id,
   });
 
   bool verifyAvailability() {

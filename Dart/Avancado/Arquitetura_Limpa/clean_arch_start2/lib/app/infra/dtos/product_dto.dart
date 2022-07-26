@@ -12,6 +12,7 @@ class ProductDto extends ProductEntity {
   String category;
   double price;
   int quantity;
+  int id;
 
   //Como nós temos que extender de ProductEntity, temos que passar os valores dessa classe
   // para o product entity, fazemos isso através do : super.
@@ -21,12 +22,14 @@ class ProductDto extends ProductEntity {
     required this.category,
     required this.price,
     required this.quantity,
+    required this.id,
   }) : super(
           name: nameProduct,
           brand: brand,
           category: category,
           qtd: quantity,
           price: price,
+          id: id,
         );
 
   Map<String, dynamic> toMap() {
@@ -37,6 +40,7 @@ class ProductDto extends ProductEntity {
     result.addAll({'category': category});
     result.addAll({'price': price});
     result.addAll({'quantity': quantity});
+    result.addAll({'id': id});
   
     return result;
   }
@@ -48,6 +52,7 @@ class ProductDto extends ProductEntity {
       category: map['category'] ?? '',
       price: map['price']?.toDouble() ?? 0.0,
       quantity: map['quantity']?.toInt() ?? 0,
+      id: map['id']?.toInt() ?? 0,
     );
   }
 

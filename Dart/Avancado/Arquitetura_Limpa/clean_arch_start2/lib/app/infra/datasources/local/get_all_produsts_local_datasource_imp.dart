@@ -11,6 +11,7 @@ class GetAllProductsLocalDatasourceImp implements GetAllProductsDatasource {
         brand: 'Hp',
         category: 'eletrônicos',
         qtd: 3,
+        id: 1,
       ),
       ProductEntity(
         name: 'Bicicleta',
@@ -18,6 +19,7 @@ class GetAllProductsLocalDatasourceImp implements GetAllProductsDatasource {
         brand: 'monark',
         category: 'automóveis',
         qtd: 2,
+        id: 2,
       ),
       ProductEntity(
         name: 'Fone de ouvido gamer',
@@ -25,6 +27,7 @@ class GetAllProductsLocalDatasourceImp implements GetAllProductsDatasource {
         brand: 'HyperX',
         category: 'eletrônicos',
         qtd: 0,
+        id: 3,
       ),
     ];
   }
